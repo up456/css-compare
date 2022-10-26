@@ -1,0 +1,40 @@
+:root {
+  --mainTheme-color: #b4c6fc;
+}
+
+.primary-btn {
+  background-color: var(--mainTheme-color);
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background: rgb(105, 124, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(105, 124, 218, 1) 0%,
+    rgba(120, 95, 190, 1) 100%
+  );
+}
+
+.mouse-effect {
+  position: relative;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+}
+
+.mouse-effect::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: 200ms ease-in-out;
+}
+
+.mouse-effect:hover:after {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.mouse-effect:focus {
+  transform: scale(1.1);
+}
