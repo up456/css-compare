@@ -8,6 +8,7 @@ function Pure() {
         Pure 라벨
       </label>
       <button className="pure__btn">Pure 버튼</button>
+
       {/* <button className="pure__btn primary-btn">Pure 버튼</button> */}
       {/* <button className="pure__btn primary-btn mouse-effect">Pure 버튼</button> */}
     </div>

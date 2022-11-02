@@ -10,9 +10,6 @@ function Post() {
       </label>
       <button className={styles.btn}>Post 버튼</button>
       {/* <button className={`${styles.btn} primary-btn`}>Post 버튼</button> */}
-      {/* <button className={`${styles.btn} primary-btn mouse-effect`}>
-        Post 버튼
-      </button> */}
     </div>
   );
 }

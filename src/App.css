@@ -12,15 +12,15 @@ code {
     monospace;
 }
 
-/* @tailwind base; */
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, auto));
 }
 
-.pure__label {
+/* .pure__label {
   accent-color: red;
-}
+} */

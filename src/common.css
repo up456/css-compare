@@ -9,7 +9,7 @@
   padding: 5px 10px;
   background: rgb(105, 124, 218);
   background: linear-gradient(
-    0deg,
+    110deg,
     rgba(105, 124, 218, 1) 0%,
     rgba(120, 95, 190, 1) 100%
   );
@@ -36,5 +36,5 @@
 }
 
 .mouse-effect:focus {
-  transform: scale(1.1);
+  transform: rotateY(360deg);
 }
